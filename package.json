@@ -1,17 +1,17 @@
 {
-  "homepage": "http://mosgood3.github.io/Sinister-Algorithms",
+  "homepage": "https://mosgood3.github.io/Sinister-Algorithms",
   "name": "blog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
     "lucide-react": "^0.474.0",
     "react": "^19.0.0",
