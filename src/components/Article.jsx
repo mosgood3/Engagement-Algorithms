@@ -30,6 +30,26 @@ const Article = () => {
         <p className="mt-2">
         These algorithms are built to maximize your time on the platform. They track your likes, comments, shares, and how long you view each post, then analyze these patterns to recommend similar content. They also experiment with new content to see what captures your interest. Over time, they become increasingly sophisticated, continuously improving their ability to keep you scrolling.
         </p>
+        <p className="mt-4">
+        <strong><em>The bar analogy</em></strong>
+        </p>
+        <p>
+         Imagine a bar where the bartenders analyze your every move. They note what catches your eye, track your reactions to drinks, and subtly adjust the vibe to keep you engaged. If you perk up after a whiskey sour, they suggest similar cocktails. If deep conversations follow a few beers, they dim the lights and lower the volume.
+
+        Over time, they predict your choices, offering drinks before you ask, creating the perfect atmosphere, and ensuring you stay longer. At first, it feels like the best bar ever. But as months pass, your nights feel compulsive, your health declines, and leaving gets harder. The bartenders weren’t just serving drinks—they were keeping you there.
+
+        Like engagement algorithms, what started as entertainment became an addiction, designed to hold your attention at any cost.
+        </p>
+
+        <h2 id="engagement-algorithms" className="text-2xl font-semibold mt-6">
+          Unintended Consequences
+        </h2>
+        <p className="mt-2 font-semibold"> 
+        <em>"If a product is free, you are the product."</em></p>
+        <p className="mt-2"> Instagram, Tik tok, Youtube, Twitter, etc. are all free to sign up. Rather than making their money upfront, these companies generate the majority of their revenue through advertising. The longer you are scrolling, the more advertisments you watch equals more money in their pockets. This business model gives a reasoning for why modern social media rely on engagement, but ethical concerns arrise with how this is achieved.
+        </p>
+
+
         <p className="mt-6 italic text-gray-600">
           Stay aware. Stay intentional. Don’t let the algorithm control you.
         </p>
