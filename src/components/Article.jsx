@@ -17,7 +17,7 @@ const Article = () => {
         <div className="bg-gray-900 w-2 rounded-l-lg"></div>
         <div className="bg-gray-100 p-4 rounded-r-lg flex-1">
         <p className="text-gray-700 text-md">
-        Until the 1950s, cognitive processing was considered unique to living organisms, with humans exhibiting the most complex reasoning. Geoffrey Hinton, often called the Godfather of AI, revolutionized the field by advancing deep learning and popularizing backpropagation for training neural networks. His breakthroughs enabled computers to learn from data and recognize patterns in a way that mimics the human brain, laying the foundation for modern AI systems.
+        With traditional algorithms, we define explicit rules that a computer follows to solve a problem. In contrast, deep learning models operate in a way that even their creators don’t fully understand. We train them on data, set optimization methods, and allow them to adjust their own parameters. While we can see the outputs, the decision-making process remains largely a black box. Even with interpretability techniques, we can only approximate their reasoning, not fully grasp it. This lack of transparency raises concerns about trust, bias, and accountability in AI-driven decisions.
         </p>
         </div>
         </div>
@@ -45,7 +45,7 @@ const Article = () => {
           Unintended Consequences
         </h2>
         <p className="mt-2 font-semibold"> 
-        <em>"If a product is free, you are the product."</em></p>
+        <em>If a product is free, you are the product ~ Tristian Harris</em></p>
         <p className="mt-2"> Instagram, Tik tok, Youtube, Twitter, etc. are all free to sign up. Rather than making their money upfront, these companies generate the majority of their revenue through advertising. The longer you are scrolling, the more advertisments you watch equals more money in their pockets. This business model gives a reasoning for why modern social media rely on engagement, but ethical concerns arrise with how this is achieved.
         </p>
 
