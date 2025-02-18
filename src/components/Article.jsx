@@ -10,17 +10,17 @@ const Article = () => {
         </p>
 
         <p className="mt-4">
-        Algorithms become increasingly complex when they gain the ability to learn and adapt on their own, a process known as artificial intelligence or machine learning. Think of the sandwhich example—you might receive feedback from someone, adjust the ingredients or technique, and refine the recipe over time. Similarly, machine learning algorithms improve by analyzing data, identifying patterns, and continuously optimizing their performance.  
+        However, algorithms become far more complex when they gain the ability to learn and adapt on their own, a process known as machine learning. Imagine refining your sandwich recipe based on feedback, tweaking ingredients, or adjusting your technique. Similarly, machine learning algorithms improve over time by analyzing data, recognizing patterns, and optimizing their decisions without explicit human instructions.  
         </p>
 
         <p className="mt-4">
-        With traditional algorithms, we define explicit rules that a computer follows to solve a problem. In contrast, deep learning models operate in a way that even their creators don’t fully understand. We train them on data, set optimization methods, and allow them to adjust their own parameters. While we can see the outputs, the decision-making process remains largely a <a href="https://umdearborn.edu/news/ais-mysterious-black-box-problem-explained" className="text-blue-600">black box</a>. Even with interpretability techniques, we can only approximate their reasoning, not fully grasp it. This lack of transparency raises concerns about trust, bias, and accountability in AI-driven decisions.
+        Traditional algorithms operate based on predefined rules, where every step is explicitly programmed. In contrast, deep learning models adjust their own parameters through training, often producing results in ways that even their creators don’t fully understand. While we can observe their outputs, the inner workings of these models function as a <a href="https://umdearborn.edu/news/ais-mysterious-black-box-problem-explained" className="text-blue-600">"black box"</a>, making their decision-making process difficult to interpret. Despite advances in explainability techniques, true transparency remains a challenge. This raises critical questions about trust, bias, and accountability in AI-driven decisions.
         </p>
         <h2 id="engagement-algorithms" className="text-2xl font-semibold mt-6">
           Engagement Algorithms
         </h2>
         <p className="mt-2">
-        Have you ever opened social media and noticed your explore page is filled with the same type of content? For me, it’s almost all UFC—almost like the algorithm knows exactly what I’m most likely to click on. This is no coincidence, rather the engagement algorithm in-action.
+        Have you ever opened social media and noticed your explore page is filled with the same type of content? For me, it’s almost all UFC, almost like the algorithm knows exactly what I’m most likely to click on. This is no coincidence, rather the engagement algorithm in-action.
         </p>
         <p className="mt-2">
         These algorithms are built to maximize your time on the platform. They track your likes, comments, shares, and how long you view each post, then analyze these patterns to recommend similar content. They also experiment with new content to see what captures your interest. Over time, they become increasingly sophisticated, continuously improving their ability to keep you scrolling.
@@ -29,11 +29,7 @@ const Article = () => {
         <div className="bg-gray-900 w-2 rounded-l-lg"></div>
         <div className="bg-gray-100 p-4 rounded-r-lg flex-1">
         <p className="text-gray-700 text-md">
-        Imagine a bar where the bartenders analyze your every move. They note what catches your eye, track your reactions to drinks, and subtly adjust the vibe to keep you engaged. If you perk up after a whiskey sour, they suggest similar cocktails. If deep conversations follow a few beers, they dim the lights and lower the volume.
-
-        Over time, they predict your choices, offering drinks before you ask, creating the perfect atmosphere, and ensuring you stay longer. At first, it feels like the best bar ever. But as months pass, your nights feel compulsive, your health declines, and leaving gets harder. The bartenders weren’t just serving drinks—they were keeping you there.
-
-        Like engagement algorithms, what started as entertainment became an addiction, designed to hold your attention at any cost.
+        Imagine walking into a bar where the bartenders track your every move. They note which drinks catch your eye, how you react to different flavors, and even your mood throughout the night. If you light up after a whiskey sour, they suggest similar cocktails. If deep conversations follow a few beers, they dim the lights and lower the volume. Over time, they predict your choices so well that they have your drink ready before you even ask. At first, it feels like the perfect experience. But as months pass, your nights become compulsive, your health declines, and leaving gets harder. The bartenders weren’t just serving drinks—they were keeping you there. Engagement algorithms work the same way. What starts as entertainment gradually becomes an addiction, engineered to hold your attention at any cost.
         </p>
         </div>
         </div>
@@ -45,25 +41,26 @@ const Article = () => {
         <p className="mt-2"> Platforms like Instagram, TikTok, YouTube, and Twitter are free to use, but they generate most of their revenue through advertising. The longer users scroll, the more ads they see, directly increasing the platform’s profits. This business model explains why modern social media prioritizes engagement, but it also raises ethical concerns about how this is achieved.
         </p>
         <p className="mt-2">
-        Every time we sign up for an app built around engagement, we make an unspoken agreement with the platform. In exchange for entertainment, we grant it deep insight into how our minds work. When an algorithm is designed to capture our attention, it inevitably learns the nuances of our thinking, shaping not only what we see but how we see the world. This raises privacy concerns, not just about traditional data like credit card numbers or personal details, but something far more invasive. Somewhere in a data center, a machine is plugged in, continuously refining its understanding of your desires, habits, and vulnerabilities. Now, take this for what it is; perhaps nothing more than an optimized user experience. But where does this road lead? If an algorithm can predict your actions before you make them, influence your choices without you realizing, and mold your perceptions over time, then the question is no longer just about privacy. It’s about control.
+        Every time we sign up for an app built around engagement, we enter into an unspoken agreement. In exchange for entertainment, we grant the platform deep insight into our thoughts, preferences, and behaviors. Algorithms designed to capture attention don’t just learn what we like; they learn how we think, shaping not only what we see but how we see the world. This raises privacy concerns beyond just stolen passwords or leaked personal data. Somewhere in a data center, a machine is continuously refining its understanding of your desires, habits, and vulnerabilities. At first glance, this may seem like nothing more than an optimized user experience. But where does this road lead? If an algorithm can predict your actions before you take them, subtly influence your choices, and mold your perceptions over time, the issue isn’t just privacy, it’s control.
         </p>
 
         <p className="mt-2">
-        While the control aspect of social media could lead down a dark path, for now, it remains a tool designed to capture your attention. Yet, its influence on society, especially younger generations—is undeniable. Teenagers now average 8.5 hours of screen time daily, exceeding the World Health Organization’s recommendation by 6.5 hours. What was once an escape from reality, has become the reality itself. It is no coincidence that mental health in the United States is rising concern among the youth. The platforms are engineered to keep users engaged, regardless of the type of content. They exploit our natural tendency toward negativity bias—the inclination to focus more on negative emotions and information than positive ones. If a user is drawn to content that evokes sadness or jealousy, the algorithm will prioritize such content, keeping them hooked and scrolling for longer.
+        While this level of influence has yet to reach dystopian extremes, its effects on society, particularly younger generations; are undeniable. Teenagers now average 8.5 hours of screen time daily, exceeding the World Health Organization’s recommendations by 6.5 hours. What was once an escape from reality has become reality itself. The rise of mental health concerns among young people is no coincidence. Social media platforms are engineered to keep users engaged, regardless of the emotional impact of the content they consume. They exploit our natural negativity bias, the tendency to focus more on distressing information than positive. If a user is drawn to content that sparks sadness, jealousy, or outrage, the algorithm will prioritize such content, keeping them hooked for longer. Over time, the constant cycle of overstimulation and exposure to negativity reshapes our brains in harmful ways.
+        </p>
+        <p className="mt-2"> 
+        We are also being introduced to the information paradox of the digital age: never before has so much content been created and shared, yet much of it lacks real substance. Social media and engagement-driven algorithms have given us the illusion of being informed when, in reality, they reinforce our biases and cater to our cravings for entertainment. Rather than broadening our understanding, these platforms filter information in ways that manipulate our perception, favoring engagement over truth. Complex issues: whether political, social, or scientific, rarely fit into a 15-second clip, yet creators of these platforms are forced to reduce nuanced discussions into bite-sized, oversimplified takes. We have unprecedented access to information, but much of it is just noise, designed to keep us scrolling, not thinking. I believe it’s better to use these platforms intentionally, seeking out harmless, stupid entertainment rather than passively allowing them to shape our ethics, opinions, and worldview.  
         </p>
         <h2 id="escaping" className="text-2xl font-semibold mt-6">
           Escaping the Scroll
         </h2>
         <p className="mt-2">
-        After understanding how social media apps truly operate, I wanted to see just how much they influenced my life. So, I deleted every social media app from my phone. Almost immediately, I found myself reaching for my phone, instinctively trying to open apps that were no longer there. It wasn’t a conscious decision to scroll; it was pure habit. This experience made me realize the true power of these algorithms—they had tapped into my subconscious, drawing me back to their platforms without me even thinking about it.
+        After understanding how social media apps truly operate, I wanted to see just how much they influenced my life. So, I deleted every social media app from my phone. Almost immediately, I found myself reaching for my phone, instinctively trying to open apps that were no longer there. It wasn’t a conscious decision to scroll; it was pure habit. This experience helped me realize the true power of these algorithms. They had tapped into my subconscious, drawing me back to their platforms without me even thinking about it.
 
         <p className="mt-2">
-        This experience was eye-opening, but I’m not suggesting we abandon social media altogether. These platforms are great for connecting with others, staying informed, and even unwinding after a long day. The key to a healthy relationship with them is to take control. Understand how they operate, recognize how they’re designed to capture your attention, and take charge of when and how you choose to engage.
+        The good news is that correcting our relationship with these apps is easier than it seems. The first step is breaking the physical addiction. One of the simplest ways to do this is by deleting the apps until the subconscious urge to scroll fades. The second step is developing awareness of the information being fed to you. If nothing else, I hope this discussion has helped foster that awareness. Finally, be intentional with how you use these platforms. Don't let them take your time, you choose when to engage, recognize the biases in the content you consume, and don’t let the algorithm dictate your worldview. When used correctly, these apps can be incredibly valuable: they allow us to connect with others, stay informed, and even share our own ideas. There are plenty of reputable sources providing high-quality content, but the key is seeking them out rather than letting the junk find you.
         </p>
         </p>
-        <p className="mt-6 italic text-gray-600">
-          Stay aware. Stay intentional. Don’t let the algorithm control you.
-        </p>
+        
       </div>
     );
     };
