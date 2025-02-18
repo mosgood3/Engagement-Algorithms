@@ -6,7 +6,6 @@ const Nav = () => {
 
   return (
     <>
-      {/* Show open button only when menu is closed */}
       {!menuOpen && (
         <button
           onClick={() => setMenuOpen(true)}
@@ -16,13 +15,11 @@ const Nav = () => {
         </button>
       )}
 
-      {/* Mobile Navigation Drawer */}
       <div
         className={`fixed top-0 right-0 lg:w-1/5 md:1/4 sm:w-1/2 h-full bg-slate-800 text-white p-6 shadow-lg flex flex-col transform transition-transform duration-500 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Close button inside the menu */}
         <button
           onClick={() => setMenuOpen(false)}
           className="self-end text-xl font-bold"
@@ -48,6 +45,24 @@ const Nav = () => {
               className="block hover:text-blue-600 transition"
             >
               Engagement Algorithms
+            </a>
+          </li>
+          <li>
+            <a
+              href="#unintended-consequences"
+              onClick={() => setMenuOpen(false)}
+              className="block hover:text-blue-600 transition"
+            >
+              Unintended Consequences
+            </a>
+          </li>
+          <li>
+            <a
+              href="#escaping"
+              onClick={() => setMenuOpen(false)}
+              className="block hover:text-blue-600 transition"
+            >
+              Escaping the Scroll
             </a>
           </li>
         </ul>
